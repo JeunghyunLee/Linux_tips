@@ -8,6 +8,11 @@
   2) profile 상단에 그대로 작성:: alias ccsl1=‘ssh -p 7777 jhlee4991@@ccsl1.snu.ac.kr’
   3) bash 재실행 혹은 source ~/.bash_profile 실행해서 아무 에러 메시지가 나오지 않으면 성공!
 
+다른 방법
+  1) vim ~/.ssh/config 
+  2) Host ccsl1, Hostname ccsl1.snu.ac.kr, User jhlee4991, Port 7777 
+
+
 #### 2. local terminal 글자 색깔 설정 방법
 : bash_profile 수정해주기
 
