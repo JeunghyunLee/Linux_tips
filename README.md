@@ -30,8 +30,8 @@ source .bash_profile하면 적용 완료!
   3) master -> branch로 가기: `git checkout <name>`
   4) branch에서 작업하기
   5) branch 에 add, commit, push
-  6) 만약 branch 최초의 push라면: `git push --set-upstream origin <name>`
-  7) master로 이동: `git checkout master`
-  8) merge: `git merge <branch name>`
-  9) pull -> push 
-  10) branch 삭제: `git branch -d angel`
+    5-1) 만약 branch 최초의 push라면: `git push --set-upstream origin <name>`
+  6) master로 이동: `git checkout master`
+  7) merge: `git merge <branch name>`
+  8) pull -> push 
+  9) branch 삭제: `git branch -d angel`
